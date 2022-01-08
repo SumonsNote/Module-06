@@ -17,9 +17,23 @@
         </ul>
     </nav>
     <form action="">
-        <h1>World Electronics.com</h1>
+        <h1>World <mark>Electronics.com</mark></h1>
         <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
         <p>Email: <input type="email" name="email" placeholder="Enter your email" id=""></p>
+        <p>Select Computer: <input type="text" name="computers" list="computers"></p>
+        <datalist id="computers">
+            <option value="Apple"></option>
+            <option value="Samsung"></option>
+            <option value="Google"></option>
+            <option value="Microsoft"></option>
+            <option value="Dell"></option>
+        </datalist>
+        <select>
+            <option value="Apple">Apple</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Microsoft">Microsoft</option>
+            <option value="Google">Google</option>
+        </select>
 
         <fieldset>
             <legend>Select your Company</legend>
